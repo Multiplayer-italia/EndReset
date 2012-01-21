@@ -1,0 +1,11 @@
+name: EndReset
+main: de.V10lator.EndReset.EndReset
+version: 0.3
+commands:
+  EndReset:
+    description: Configure the inactivity time in minutes.
+    usage: <command> X
+permissions:
+  endreset.config:
+    description: use /EndReset
+    default: op
